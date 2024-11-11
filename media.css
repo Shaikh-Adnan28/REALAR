@@ -1,0 +1,48 @@
+@media only screen and (max-width: 620px){
+    @keyframes backgroundimg {
+        0% {
+            background-image: url('img/hero_bg_1_1.png');
+            /* background-size: 200%; */
+            background-size: cover;
+        }
+    
+        25% {
+            background-image: url('img/hero_bg_1_1.png');
+            background-size: cover;
+        }
+    
+        30% {
+            background-image: url('img/hero_bg_1_2.png');
+            background-size: cover;
+
+        }
+    
+        55% {
+            background-image: url('img/hero_bg_1_2.png');
+            background-size: cover;
+
+            /* transition: 10s ease-in-out; */
+        }
+    
+        60% {
+            background-image: url('img/hero_bg_1_3.png');
+            background-size: cover;
+
+            /* transition: 10s ease-in-out; */
+        }
+    
+        90% {
+            background-image: url('img/hero_bg_1_3.png');
+            background-size: cover;
+
+        }
+    
+        100% {
+            background-image: url('img/hero_bg_1_1.png');
+            /* background-size: 200%; */
+            background-size: cover;
+    
+        }
+    
+    }
+}
